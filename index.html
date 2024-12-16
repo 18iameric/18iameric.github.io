@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CommandSync Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with logo -->
+    <header>
+        <div class="logo">
+            <img src="logo-placeholder.png" alt="CommandSync Solutions Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <section class="hero">
+        <h1>Welcome to CommandSync Solutions</h1>
+        <p>Your home automation integration and Home Assistant platform experts.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-package">
+            <h3>Basic Package</h3>
+            <p>We integrate your existing IoT devices with the Home Assistant platform.</p>
+            <p><strong>$299</strong></p>
+        </div>
+        <div class="service-package">
+            <h3>Standard Package</h3>
+            <p>Includes basic integration plus advanced configuration of devices.</p>
+            <p><strong>$499</strong></p>
+        </div>
+        <div class="service-package">
+            <h3>Premium Package</h3>
+            <p>Full home automation setup, including custom automation scripts and device optimization.</p>
+            <p><strong>$799</strong></p>
+        </div>
+
+        <div class="upgrade-option">
+            <h3>Upgrade Option</h3>
+            <p>Upgrade each switch or receptacle to be fully integrated with Home Assistant for an additional <strong>$75 per device</strong>.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CommandSync Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
