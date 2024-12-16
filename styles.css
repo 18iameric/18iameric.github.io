@@ -46,6 +46,23 @@ nav ul li a {
     text-align: center;
 }
 
+.benefits {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.benefit {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.benefit h3 {
+    color: #0055cc;
+}
+
 .services {
     padding: 20px;
     background-color: white;
@@ -121,11 +138,11 @@ footer {
         width: 120px;
     }
 
-    .services {
+    .services, .benefits {
         padding: 15px;
     }
 
-    .service-package {
+    .service-package, .benefit {
         margin: 10px;
         padding: 15px;
     }
